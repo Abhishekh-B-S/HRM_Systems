@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite">
+  <test thread-count="3" name="Test">
+    <classes>
+      <class name="testNGPractice.AddNewBranchTest"/>
+      <class name="testNGPractice.AddNewCorporate"/>
+      <class name="testNGPractice.HeadToAssi"/>
+      <class name="testNGPractice.AssiToHead"/>
+      <class name="testNGPractice.AddNewEmployee"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
